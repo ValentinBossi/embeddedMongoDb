@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uuid-representation: standard
+      uri: mongodb://localhost:${mongodb.embedded.port}/test
+mongodb:
+  embedded:
+    port: 52525
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 5.0.0
