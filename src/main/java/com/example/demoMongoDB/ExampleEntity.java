@@ -20,7 +20,6 @@ public class ExampleEntity {
 
     @Id
     private ObjectId id;
-    @Id
     private UUID otherId;
     @Indexed
     private UUID someAttr;
